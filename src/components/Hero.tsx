@@ -19,17 +19,13 @@ const Hero: FC = () => {
 
         <div className="hero-image" aria-hidden>
           <div className="avatar">
-            {/* Replace with your image in /public or assets */}
-            <svg viewBox="0 0 120 120" className="avatar-svg" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="g" x1="0" x2="1">
-                  <stop offset="0" stopColor="#7c3aed" />
-                  <stop offset="1" stopColor="#06b6d4" />
-                </linearGradient>
-              </defs>
-              <circle cx="60" cy="60" r="56" fill="url(#g)" />
-              <text x="50%" y="54%" dominantBaseline="middle" textAnchor="middle" fontSize="28" fill="#fff">FL</text>
-            </svg>
+            <img 
+              // src="/assets/dhee-profile.jpg" 
+              alt="Dheeraj Duggempudi" 
+              className="avatar-img"
+              width="120"
+              height="120"
+            />
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 export const content = {
   site: {
-    brandSuffix: ' — Senior Software Development Engineer',
+    brandSuffix: ' — Senior Software Engineer',
     skipLink: 'Skip to content',
   },
   nav: [
@@ -13,18 +13,18 @@ export const content = {
   hero: {
     ctaResume: 'Download Resume',
     ctaProjects: 'View Projects',
-    subtitlePrefix: '',
+    subtitlePrefix: 'Building scalable, accessible, and high-performance web applications.',
   },
   about: {
     title: 'About',
     paragraphs: [
-      'Seasoned frontend engineer specializing in modern React, TypeScript, and delightful user experiences. I design and build large scale frontend systems while keeping accessibility and performance in mind.',
-      'I focus on clean, maintainable UI architecture, strong developer experience, and measurable frontend performance gains. I enjoy mentoring engineers and building reliable design systems.',
+      'I’m a Senior Software Engineer with over 5 years of experience delivering enterprise-grade web applications using Angular, TypeScript, and Node.js. I specialize in architecting performant, maintainable, and accessible frontend systems at scale.',
+      'I enjoy designing modular architectures, optimizing rendering performance, and enabling teams through clean coding standards, documentation, and mentorship. My work combines technical precision with a focus on real-world impact and user experience.',
     ],
     stats: [
-      { label: 'Years Experience', value: '10+' },
-      { label: 'Public Components', value: '30+' },
-      { label: 'Monthly Active Users', value: '100k+' },
+      { label: 'Years Experience', value: '5+' },
+      { label: 'Enterprise Projects', value: '10+' },
+      { label: 'Airlines & Finance Platforms Served', value: '6+' },
     ],
   },
   projects: {
@@ -32,19 +32,21 @@ export const content = {
     viewButton: 'View',
   },
   experience: {
-    title: 'Experience',
+    title: 'Professional Experience',
   },
   skills: {
-    title: 'Skills',
+    title: 'Core Skills',
   },
   contact: {
     title: 'Contact',
-    prompt: "If you'd like to work together, reach out — I respond quickly to serious inquiries.",
+    prompt:
+      'Looking to collaborate or hire? I’m open to opportunities in modern web development, architecture, and UI engineering.',
     emailButton: 'Email Me',
-    socialPrefix: 'Find me on',
+    socialPrefix: 'Connect with me on',
   },
   footer: {
-    left: 'Built with React & TypeScript',
+    // left: 'Built with Angular, TypeScript, and clean engineering principles.',
+    left: 'Built with React, TypeScript',
   },
   // portfolio data moved to src/config/data.ts (import that as `data` in components)
 }

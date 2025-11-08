@@ -1,66 +1,88 @@
 export const data = {
   name: 'Dheeraj Duggempudi',
-  title: 'Senior Software Development Engineer',
+  title: 'Senior Software Engineer',
   summary:
-    'Seasoned frontend engineer specializing in modern React, TypeScript, and delightful user experiences. I design and build large scale frontend systems while keeping accessibility and performance in mind.',
-  // resume stored in public/assets/resume.pdf
+    'Senior Software Engineer with over 5 years of experience building high-performance, scalable web applications using Angular, TypeScript, and Node.js. Specialized in UI architecture, performance optimization, accessibility, and sustainable engineering practices across enterprise-scale systems.',
   resume: '/assets/resume.pdf',
   social: {
-    github: 'https://github.com/yourname',
+    github: 'https://github.com/dheerajduggempudi',
     linkedin: 'https://www.linkedin.com/in/dheeraj-duggempudi/',
-    twitter: 'https://twitter.com/yourname',
+    twitter: 'https://twitter.com/dheerajduggempudi',
   },
+
   projects: [
     {
       id: 'p1',
-      title: 'Design System & Component Library',
+      title: 'Financial Analytics Dashboard (Morgan Stanley)',
       description:
-        'Built an accessible, themeable component library used across multiple products. Focused on performance, tree-shaking, and DX with TypeScript and Storybook.',
-      tech: ['React', 'TypeScript', 'Vite', 'Storybook'],
+        'Built customer-facing financial dashboards handling real-time data and analytics. Improved rendering efficiency and reduced time-to-interactive by over 30%.',
+      tech: ['Angular', 'NgRx', 'RxJS', 'Node.js', 'Apollo Server'],
       link: '#',
     },
     {
       id: 'p2',
-      title: 'Realtime Collaboration App',
+      title: 'Amadeus Digital Experience Suite',
       description:
-        'Led frontend for a realtime collaboration product using websockets and optimistic UIs. Improved latency and reduced rendering overhead.',
-      tech: ['React', 'Redux', 'WebSocket', 'Node.js'],
+        'Developed and maintained the Digital Experience Suite powering global airline booking systems for Lufthansa, Air India, and Malaysian Airlines. Focused on accessibility, performance, and scalability.',
+      tech: ['Angular', 'TypeScript', 'RxJS', 'GraphQL', 'Azure DevOps'],
       link: '#',
     },
     {
       id: 'p3',
-      title: 'E-commerce Platform Migration',
+      title: 'Micro Frontend Architecture Initiative',
       description:
-        'Migrated legacy storefront to modern SPA with incremental adoption, improving Core Web Vitals and conversion rate.',
-      tech: ['React', 'Next.js', 'TypeScript', 'GraphQL'],
+        'Led the design and implementation of a modular micro frontend architecture enabling independent deployment and scaling across multiple applications.',
+      tech: ['Angular', 'Webpack Module Federation', 'TypeScript', 'Nginx'],
       link: '#',
     },
   ],
+
   skills: [
-    { name: 'React', level: 95 },
-    { name: 'TypeScript', level: 92 },
-    { name: 'HTML & CSS', level: 98 },
-    { name: 'Performance', level: 90 },
-    { name: 'Accessibility', level: 88 },
-    { name: 'Node.js / Backend', level: 78 },
+    { name: 'Angular', level: 95 },
+    { name: 'TypeScript', level: 93 },
+    { name: 'RxJS / NgRx', level: 90 },
+    { name: 'HTML / SCSS', level: 92 },
+    { name: 'GraphQL / Node.js', level: 85 },
+    { name: 'Performance Optimization', level: 88 },
+    { name: 'Accessibility (WCAG)', level: 85 },
+    { name: 'Docker / CI-CD', level: 82 },
   ],
+
   experience: [
     {
       id: 'e1',
-      company: 'Acme Corp',
-      role: 'Senior Frontend Engineer',
-      date: '2021 - Present',
+      company: 'Accolite Digital (Client: Morgan Stanley)',
+      role: 'Senior Software Engineer',
+      date: 'Oct 2024 – Sept 2025',
       bullets: [
-        'Led frontend team of 6, owned performance strategy.',
-        'Designed component library and CI for publishing packages.',
+        'Owned development of Angular-based financial dashboards handling live analytics with high reliability.',
+        'Architected scalable frontend integrated with Node.js microservices and GraphQL APIs.',
+        'Reduced time-to-interactive by 30% through performance profiling and optimization.',
+        'Enhanced CI/CD pipelines using GitHub Actions and YAML parallelization, cutting build time by 40%.',
+        'Mentored junior engineers and standardized coding practices across teams.',
       ],
     },
     {
       id: 'e2',
-      company: 'Beta Labs',
+      company: 'Amadeus Labs',
       role: 'Software Engineer',
-      date: '2018 - 2021',
-      bullets: ['Built customer-facing dashboards', 'Improved test coverage and deploy cadence'],
+      date: 'Jul 2020 – Aug 2024',
+      bullets: [
+        'Built enterprise-grade airline booking applications serving millions of users globally.',
+        'Led Angular frontend development with a focus on scalability, accessibility, and cross-device support.',
+        'Implemented micro frontends and reusable design systems for multi-brand airline platforms.',
+        'Automated deployments with Docker and Azure DevOps, improving build reproducibility.',
+        'Introduced Jest and Playwright-based TDD, improving release quality and reducing regressions.',
+      ],
+    },
+  ],
+
+  education: [
+    {
+      degree: 'Bachelor of Technology in Computer Science',
+      institution: 'SRM University',
+      score: '89%',
+      date: '2016 – 2020',
     },
   ],
 }
